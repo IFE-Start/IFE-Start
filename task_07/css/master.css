@@ -6,6 +6,7 @@ body,ul,li,ol,h1,h2,h3,h4,p,img,input,select { margin: 0; padding: 0}
 a { text-decoration: none; color: #767777;}
 em,i { font-style: normal;}
 h1,h2,h3 { font-size: 100%; font-weight: normal;}
+ul { list-style: none;}
 /* utils */
 .clearfix { *zoom: 1;}
 .clearfix:after { content: ''; clear: both; display: table; height: 0;}
@@ -67,3 +68,42 @@ section { overflow: hidden; position: relative;}
 .s4 .item2 .img { background: url(../images/s4-2.jpg) no-repeat center center;}
 .s4 .item3 .img { background: url(../images/s4-3.jpg) no-repeat center center;}
 .s4 .item4 .img { background: url(../images/s4-4.jpg) no-repeat center center;}
+
+.s5 {}
+.s5 .lunbo-wrap { height: 566px;}
+.s5 .lunbo-wrap li { float: left; width: 100%;}
+.s5 .lunbo-wrap li .show { width: 851px; height: 566px; position: relative; float: left; }
+.s5 .lunbo-wrap li .show img { width: 100%;}
+.s5 .lunbo-wrap .show .showtxt { width: 100%; position: absolute; top: 133px; left: 0;}
+.s5 .lunbo-wrap .show .showtxt span { display: block; text-align: center; color: #fff;}
+.s5 .lunbo-wrap .show .showtxt .subtit { font-size: 50px;}
+.s5 .lunbo-wrap .show .showtxt .tit { font-size: 158px;}
+.s5 .lunbo-wrap .show .showtxt .author { font-size: 22px;}
+.s5 .lunbo-wrap .show .showtxt .time { margin-top: 25px;}
+.s5 .lunbo-wrap li .content { overflow: hidden; height: 566px;}
+.s5 .lunbo-wrap li .content .slidetxt { width: 290px; margin: 165px auto 0;}
+.s5 .lunbo-wrap li .content .slidetxt .tit { font-size: 20px; text-align: center; color: #000; position: relative;}
+.s5 .lunbo-wrap li .content .slidetxt .tit i { font-size: 20px; color: #e74f4d;}
+.s5 .lunbo-wrap li .content .slidetxt .desc { line-height: 30px; font-size: 12px; color: #bbb; margin-top: 13px;}
+.s5 .lunbo-wrap li .content .slidetxt .undermore { width: 106px; height: 33px; line-height: 33px; display: block; margin: 0 auto; border: 1px solid #e77b7e; text-align: center; color: #e77b7e;}
+.s5 .lunbo-wrap li .content .slidetxt .undermore:hover { background: #e77b7e; color: #fff;}
+.s5 .lunbo-wrap .show .arrow { top: 50%; margin-top: -13px; right: -1px; position: absolute; width: 26px; height: 31px; background: url(../images/l-arrow.png) no-repeat;}
+.s5 .morebox { height: 521px;}
+.s5 .morebox .item { width: 33.3333%; height: 520px; float: left; padding-top: 1px;}
+.s5 .morebox .item1 { background: #e74f4d;}
+.s5 .morebox .item3 { background: url(../images/s5-m1.jpg) no-repeat center center;}
+.s5 .morebox .item .content { margin-top: 163px;}
+.s5 .morebox .item .content p { text-align: center; font-size: 20px; color: #fff; line-height: 31px;}
+.s5 .morebox .item .content .desc:after { width: 32px; height: 2px; background: #fff; position: absolute; left: 50%; margin-left: -16px; bottom: -28px;}
+.s5 .morebox .item .content .mbtn { margin: 50px auto 0; display: block; width: 170px; border: 1px solid #fff; height: 42px; line-height: 42px; text-align: center; font-size: 20px; color: #fff;}
+.s5 .morebox .item1 .content .mbtn:hover { background: #fff; color: #e77b7e;}
+.s5 .morebox .item2 .content .mbtn { border-color: #e77b7e; color: #e77b7e;}
+.s5 .morebox .item2 .content .mbtn:hover { background: #e77b7e; color: #fff;}
+.s5 .morebox .item2 .content p { color: #000;}
+
+.s6 { padding-top: 1px;}
+.s6 .alltalk { width: 424px; margin: 120px auto 102px;}
+.s6 .alltalk p { text-align: center; }
+.s6 .alltalk .tit { font-size: 21px; color: #323333; position: relative;}
+.s6 .alltalk .tit:after { bottom: -9px; left: 50%; margin-left: -16px;;content: ''; width: 31px; height: 2px; background: #ea6563; position: absolute;}
+.s6 .alltalk .desc { line-height: 18px; font-size: 12px; color: #aaaaaa; margin-top: 28px;}
